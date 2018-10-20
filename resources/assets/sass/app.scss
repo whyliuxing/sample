@@ -142,3 +142,10 @@ input, textarea, select, .uneditable-input{
 input{
     height: auto !important;
 }
+#logout
+{
+    cursor: default;
+    &:hover{
+        background-color:transparent;
+    }
+}

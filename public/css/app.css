@@ -8505,3 +8505,11 @@ input {
   height: auto !important;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+

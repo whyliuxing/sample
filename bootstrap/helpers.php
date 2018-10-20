@@ -17,7 +17,7 @@ function get_db_config()
     }else{
         return $db_config = [
             'connection' => env('DB_CONNECTION', 'mysql'),
-            'host' => env('DB_HOST', localhost),
+            'host' => env('DB_HOST', 'localhost'),
             'database' => env('DB_DATABASE', 'froge'),
             'username' => env('DB_USERNAME', 'froge'),
             'password' => env('DB_PASSWORD', ''),
